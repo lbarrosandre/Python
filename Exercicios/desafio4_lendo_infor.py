@@ -1,0 +1,10 @@
+dados = input('Digite qualquer coisa: ')
+print('Numerico: ',dados.isnumeric())
+print('Alfa númerico: ',dados.isalnum())
+print('Alfa: ',dados.isalpha())
+print('Letras Maiusculas: ',dados.isupper())
+print('Letras minusculas: ',dados.islower())
+print('Espaço: ',dados.isspace())
+print('Titulo: ',dados.istitle())
+print('Apenas numeros: ',dados.isdigit())
+
